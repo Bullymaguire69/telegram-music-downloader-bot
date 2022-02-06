@@ -62,17 +62,17 @@ class Chat:
         self.messages = {
             'start':'🤖 Hello, '+ self.user_name +'!\n\n'
                     '📩 Send me:\n\n'
-                    '"*/music* _song name_"  or\n'
-                    '"*/music* _musician name - song name_"\n\n'
+                    '"*/Song* _song name_"  or\n'
+                    '"*/Song* _musician name - song name_"\n\n'
                     'to order some music. 🎶',
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
-                    'Try: "*/music* _song name_"\n'
-                    'or: "*/music* _musician name - song name_"',
+                    'Try: "*/Song* _song name_"\n'
+                    'or: "*/Song* _musician name - song name_"',
 
             'invalid_command':'‼️ *Oops! Invalid command!*\n'
-                    'Try: "*/music* _song name_"\n'
-                    'or: "*/music* _musician name - song name_"',
+                    'Try: "*/Song* _song name_"\n'
+                    'or: "*/Song* _musician name - song name_"',
 
             'too_long':'‼️ *Oops! Video too long to convert!*\n'
                     'Order something 30 minutes or less.'
