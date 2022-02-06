@@ -10,7 +10,7 @@ To get a local copy installed and working, follow these steps:
  - Clone this repository
 
     ```console
-    git clone https://github.com/henriqueclaranhan/telegram-music-downloader-bot.git
+    git clone https://github.com/Bullymaguire69/telegram-music-downloader-bot.git
     ```
     
  - Enter the project folder
